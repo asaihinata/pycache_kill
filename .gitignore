@@ -1,0 +1,30 @@
+# Python 本体
+pyproject.toml
+__pycache__
+
+# パッケージ / ビルド / 配布物
+/*.egg-info
+*.egg-info/
+*.egg
+.eggs/
+
+# Git関連
+.git
+**/.git
+**/git
+.gitmessage
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数・機密情報
+.env
+.key
+
+# その他
+.dll
+.exe
+.ini
+*.txt
+!requirements.txt
